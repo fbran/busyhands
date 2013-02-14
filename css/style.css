@@ -1,0 +1,125 @@
+/*----------------------------------------------------------------------------- 
+GENERAL 
+-----------------------------------------------------------------------------*/
+
+body, html {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#000;
+  font-size:17px;
+  margin: 0;
+  background-image: url(..images/bg_body.jpg);
+}
+
+#header {
+  background: #000;
+  height: 80px; 
+  
+}
+
+/*----------------------------------------------------------------------------- 
+NAVIGATION 
+-----------------------------------------------------------------------------*/
+.nav ul {
+	
+	list-style: none;
+	padding: 0px;
+	text-align: left;
+	margin: 0 75px;
+}
+
+.nav li {
+
+	/*float: left;*/
+	display: inline-block;
+	
+
+}
+.nav li a {
+	background: #000;
+	color: #ccc;
+	padding: 30px 18px;
+	text-decoration: none;
+	display: block;
+
+	
+}
+
+.nav a:hover {
+	background: url(../images/bg_nav_rollover.png) repeat-x; 
+	
+}
+
+
+#socialMedia {
+	float: right;
+}
+
+#socialMedia ul li {
+	 display:inline-block;
+	 width:60px;
+	 height:60px;
+	 background:blue;	
+	 text-indent:-9999em;
+}
+
+#socialMedia ul li.linkedIn {
+	background:url(../images/socialNav.png) 0px 64px;
+}
+#socialMedia ul li.twitter {
+	background:url(../images/socialNav.png) -60px 64px; 
+}
+
+#socialMedia ul li.facebook {
+	background:url(../images/socialNav.png) -120px 64px; 
+}
+
+#socialMedia ul li.rss {
+	background:url(../images/socialNav.png) -180px 64px; 
+}
+
+
+
+#socialMedia ul li.linkedIn:hover {
+	background:url(../images/socialNav.png) 0px 0px; 
+}
+
+#socialMedia ul li.twitter:hover {
+	background:url(../images/socialNav.png) -60px 0px; 
+}
+
+#socialMedia ul li.facebook:hover {
+	background:url(../images/socialNav.png) -120px 0px; 
+}
+
+#socialMedia ul li.rss:hover {
+	background:url(../images/socialNav.png) -180px 0px; 
+}
+
+.clear {
+	clear: both;	
+}
+
+.centerimage {
+	margin: 20px;
+	padding: 0px 150px 10px 150px;
+
+}
+
+#footer {
+	background: #000;
+	color: #ccc;
+	font-size: 16px;
+
+}
+
+.blogroll {
+	float: left;
+}
+
+.textwidg {
+	float: left;
+}
+.metawidg {
+	float: left;
+}
